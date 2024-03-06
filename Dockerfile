@@ -24,7 +24,9 @@ FROM alpine
 
 ENV HOST=0.0.0.0
 ENV PORT=3010
+ENV CONFIG_PATH=/etc/quiestce/config.toml
 
 COPY --from=builder /code/target/release/quiestce /usr/bin/quiestce
+COPY config.toml /etc/quiestce/config.toml
 
 ENTRYPOINT ["/usr/bin/quiestce"]
