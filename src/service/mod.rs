@@ -17,7 +17,7 @@ pub(crate) struct Config {
 impl Default for Config {
     fn default() -> Self {
         let content = include_str!("../../config.toml");
-        toml::from_str(&content).expect("couldn't parse default configuration file")
+        toml::from_str(content).expect("couldn't parse default configuration file")
     }
 }
 
