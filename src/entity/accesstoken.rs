@@ -1,8 +1,8 @@
 #[derive(Debug, serde::Deserialize)]
 pub(crate) struct AccessTokenRequest {
     pub code: String,
-    pub code_verifier: String,
-    pub grant_type: String,
+    // pub code_verifier: String,
+    // pub grant_type: String,
     pub redirect_uri: String,
 }
 

@@ -31,11 +31,11 @@ pub(crate) async fn handler(
 
     cache
         .insert_authorization_response(AuthorizationResponse {
-            client_id: request.client_id,
+            // client_id: request.client_id,
             code_challenge: request.code_challenge.clone(),
-            code_challenge_method: request.code_challenge_method,
-            redirect_uri: request.redirect_uri.clone(),
-            response_type: request.response_type,
+            // code_challenge_method: request.code_challenge_method,
+            // redirect_uri: request.redirect_uri.clone(),
+            // response_type: request.response_type,
             state: request.state,
             user_id,
         })

@@ -6,19 +6,19 @@ use uuid::Uuid;
 pub(crate) struct AuthorizationRequest {
     pub client_id: String,
     pub code_challenge: String,
-    pub code_challenge_method: String,
+    // pub code_challenge_method: String,
     pub redirect_uri: String,
-    pub response_type: String,
+    // pub response_type: String,
     pub state: String,
 }
 
 #[derive(Clone)]
 pub(crate) struct AuthorizationResponse {
-    pub client_id: String,
+    // pub client_id: String,
     pub code_challenge: String,
-    pub code_challenge_method: String,
-    pub redirect_uri: String,
-    pub response_type: String,
+    // pub code_challenge_method: String,
+    // pub redirect_uri: String,
+    // pub response_type: String,
     pub state: String,
     //
     pub user_id: Uuid,
