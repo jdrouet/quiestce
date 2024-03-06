@@ -1,0 +1,22 @@
+[jsonwebtoken]
+secret = "you'll never find this one"
+
+[oauth]
+client_id = "client-id"
+client_secret = "client-secret"
+redirect_uri = "http://app/api/redirect"
+
+[[users]]
+id = "42683265-8ac3-4a95-ac65-07cf7c657af7"
+name = "Alice"
+email = "alice@example.com"
+
+[[users]]
+id = "76d6dccc-e418-45b7-9bd5-a0fc625761f6"
+name = "Bob"
+email = "bob@example.com"
+
+[[users]]
+id = "8a21bacb-f13b-4ee7-8a08-8d87ca574026"
+name = "Charles"
+email = "charles@example.com"
