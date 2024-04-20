@@ -2,7 +2,7 @@
 name = "quiestce"
 description = "A simple mock of an oauth server."
 repository = "https://github.com/jdrouet/quiestce"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 
